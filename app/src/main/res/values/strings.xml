@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MascotasSemanaTres</string>
+    <array name="lista_mascotas">
+        <item>Cerbero</item>
+        <item>Linda</item>
+        <item>Lina</item>
+        <item>Max</item>
+        <item>Mari</item>
+    </array>
+</resources>
