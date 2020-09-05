@@ -1,4 +1,4 @@
-# MascotasSemanaTres
+# MascotasSemana3
 TareaCouseraSemana3
 
 Las imágenes del proyecto
