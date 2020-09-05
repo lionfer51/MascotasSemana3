@@ -1,4 +1,5 @@
 package com.mascotassemanatres;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,16 +7,17 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+public class Adapter2 extends RecyclerView.Adapter<Adapter2.MyViewHolder> {
     String[] data;
     int[] ranking;
     int[] foto;
     Context context;
 
-    public MyAdapter(Context ct, String names[], int images[], int ranks[]) {
+    public Adapter2(Context ct, String names[], int images[], int ranks[]) {
         context = ct;
         data = names;
         foto = images;
@@ -43,9 +45,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             }
         });
     }
+
     @Override
     public int getItemCount() {
-        return data.length;
+        return 5;
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
